@@ -6,8 +6,8 @@ args = parser.parse_args()
 
 filename = args.file
 opened_file = open('hyperskill-dataset-61413753.txt')
-encoded_text = opened_file.read()  # read the file into a string
-opened_file.close()  # always close the files you've opened
+encoded_text = opened_file.read() 
+opened_file.close() 
 def decode_Caesar_cipher(s, n):
     alpha = " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',.?!"
     s = s.strip()
